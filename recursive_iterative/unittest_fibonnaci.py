@@ -1,6 +1,6 @@
 import unittest 
 import time
-from fibonacci import cache_fib_n
+from recursive_iterative.fibonacci import cache_fib_n
 from types import FunctionType
 
 TIMEOUT = 10

@@ -1,5 +1,5 @@
 from typing import TypeVar, Generic, List, Optional
-from edge import Edge
+from search_problems.edge import Edge
 
 V = TypeVar('V') # type of the vertices in the graph
 

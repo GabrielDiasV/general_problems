@@ -2,7 +2,7 @@ from enum import Enum
 from typing import List, NamedTuple, Callable, Optional, Generic
 import random
 from math import sqrt
-from generic_search import Node, Stack, dfs, bfs, node_to_path, astar
+from search_problems.generic_search import Node, Stack, dfs, bfs, node_to_path, astar
 
 class Cell(str, Enum):
     EMPTY = " "
