@@ -1,4 +1,4 @@
-from csp import Constraint, CSP
+from CSP.csp import Constraint, CSP
 from typing import Dict, List, Optional
 
 

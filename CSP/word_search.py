@@ -1,7 +1,7 @@
 from typing import NamedTuple, List, Dict, Optional
 from random import choice 
 from string import ascii_uppercase
-from csp import CSP, Constraint 
+from CSP.csp import CSP, Constraint 
 
 # type alias for grid
 Grid = List[List[str]]
